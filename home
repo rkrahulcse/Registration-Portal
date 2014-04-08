@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]> <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8 ]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9 ]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>ANWESHA 2014 REGIUSTRATION :::</title>
+<link rel="stylesheet" media="screen" href="style.css" />
+
+<!-- This is for mobile devices -->
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
+
+<!-- This makes HTML5 elements work in IE 6-8 -->
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+</head>
+
+<body background="abc.jpg">
+
+<h2 id="first">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ANWESHA REGISTRATIONS 2014</h2>
+<p>&nbsp;</p>
+
+
+
+
+
+<form name="form1" method="post" action="intranet1.php">
+
+
+<h2>PLEASE ENTER YOUR FULL NAME</h2>
+<p><input type="text" name="fullname" placeholder="FULL NAME" required></p>
+
+<h2>PLEASE ENTER YOUR ROLL NUMBER</h2>
+<p><input type="text" name="roll" placeholder="ROLL NUMBER" required></p>
+
+<h2>PLEASE ENTER YOUR CONTACT NUMBER</h2>
+<p><input type="text" name="contact" placeholder="CONTACT NUMBER" required></p>
+
+<h2>PLEASE ENTER YOUR ROOM NUMBER</h2>
+<p><input type="text" name="room" placeholder="ROOM NUMBER" required></p>
+
+<h2>PLEASE CHOOSE YOUR HALL NAME</h2>
+<input type="radio" name="hostel" id="ARYABHATTA HALL" value="aryabhatta"/><label for="ARYABHATTA HALL">ARYABHATTA HALL</label><br/>
+<input type="radio" name="hostel" id="ASHOKA HALL" value="ashoka"/><label for="ASHOKA HALL">ASHOKA HALL</label><br/>
+<input type="radio" name="hostel" id="GAUTAM BUDDHA HALL" value="gautambuddha"/><label for="GAUTAM BUDDHA HALL">GAUTAM BUDDHA HALL</label><br/>
+<input type="radio" name="hostel" id="CHANAKYA HALL" value="chanakya"/><label for="CHANAKYA HALL">CHANAKYA HALL</label><br/>
+<input type="radio" name="hostel" id="GIRLS HOSTEL" value="girls"/><label for="GIRLS HOSTEL">GIRLS HOSTEL</label><br/>
+<br/>
+
+<h2>PLEASE CHOOSE YOUR DEGREE</h2>
+<input type="radio" name="degree" id="BTECH" value="btech" /><label for="BTECH">BTECH</label><br/>
+<input type="radio" name="degree" id="MTECH"  value="mtech"/><label for="MTECH">MTECH</label><br/>
+<input type="radio" name="degree" id="PHD/PROJECT STAFF/DAY SCHOLARS" value="phd/project staff/day scholars" /><label for="PHD/PROJECT STAFF/DAY SCHOLARS">PHD/PROJECT STAFF/DAY SCHOLARS</label><br/>
+
+<br/>
+
+<h2>PLEASE CHOOSE YOUR BRANCH</h2>
+<input type="radio" name="dept" id="COMPUTER SCIENCE AND ENGINEERING" value="COMPUTER SCIENCE AND ENGINEERING"/><label for="COMPUTER SCIENCE AND ENGINEERING">COMPUTER SCIENCE AND ENGINEERING</label><br/>
+<input type="radio" name="dept" id="ELECRICAL ENGINEERING" value="ELECRICAL ENGINEERING"/><label for="ELECRICAL ENGINEERING">ELECRICAL ENGINEERING</label><br/>
+<input type="radio" name="dept" id="MECHANICAL ENGINEERING" value="MECHANICAL ENGINEERING" /><label for="MECHANICAL ENGINEERING">MECHANICAL ENGINEERING</label><br/>
+<input type="radio" name="dept" id="CIVIL ENGINEERING" value="CIVIL ENGINEERING" /><label for="CIVIL ENGINEERING">CIVIL ENGINEERING</label><br/>
+<input type="radio" name="dept" id="CHEMICAL AND BIOCHEMICAL ENGINEERING" value="CHEMICAL AND BIOCHEMICAL ENGINEERING" /><label for="CHEMICAL AND BIOCHEMICAL ENGINEERING">CHEMICAL AND BIOCHEMICAL ENGINEERING</label><br/>
+<input type="radio" name="dept" id="MATERIAL SCIENCE ENGINEERING" value="MATERIAL SCIENCE ENGINEERING" /><label for="MATERIAL SCIENCE ENGINEERING">MATERIAL SCIENCE ENGINEERING</label><br/>
+<input type="radio" name="dept" id="PHYSICS"  value="PHYSICS"/><label for="PHYSICS">PHYSICS</label><br/>
+<input type="radio" name="dept" id="CHEMISTRY" value="CHEMISTRY"/><label for="CHEMISTRY">CHEMISTRY</label><br/>
+<input type="radio" name="dept" id="MATHEMATICS" value="MATHEMATICS"/><label for="MATHEMATICS">MATHEMATICS</label><br/>
+<input type="radio" name="dept" id="HUMANITIES AND SOCIAL SCIENCES" value="HUMANITIES AND SOCIAL SCIENCES" /><label for="HUMANITIES AND SOCIAL SCIENCES">HUMANITIES AND SOCIAL SCIENCES</label>
+</p>
+<p><input name="Submit" type="submit" value="SUBMIT"> </p>
+</form>
+</body>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&copy;DESIGNED AND DEVELOPED BY Rahul Kumar </p>
+</html>
+
