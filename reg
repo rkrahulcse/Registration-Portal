@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Registration</title>
+<style>
+.ID
+{
+	color:#FFF;
+	font-size: 20PX;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font:Arial, Helvetica, sans-serif;
+	margin-left: 200px;
+	margin-right: 250px;	
+}
+
+.asa
+{
+	margin-left: 320px;	
+	margin-right: 320px;
+}
+
+.footer
+{
+	background-image: url(images.jpg);
+	margin-top: 50px;	
+}
+</style>
+</head>
+
+<body background="ii.jpg">
+<?php 
+$a = $_POST['name'];
+$b = $_POST['college'];
+$c = $_POST['email'];
+$d = $_POST['contact'];
+$e = $_POST['city'];
+$username="root";
+$password="";
+$database="anwstudreg";
+$con = mysqli_connect("localhost",$username,$password);
+@mysqli_select_db($con,$database) or die( "Unable to select database");
+$h = "ANWO";
+$i = rand(10000, 99999);
+$j = $h . $i;
+$result = mysqli_query($con,"select * from `anwstudreg`.`offline` where `anw_id` = '$j'");
+$row1 = mysqli_num_rows($result);
+while($row1!=0)
+  {
+  $i = rand(10000, 99999);
+$j = $h . $i;
+$result = mysqli_query($con,"select * from `anwstudreg`.`offline` where `anw_id` = '$j'");
+  $row1 = mysqli_num_rows($result);
+  }
+
+  $result1 = mysqli_query($con,"select name from anwstudreg.offline where email = '$c'");
+  $row = mysqli_num_rows($result1);
+  if($row!=0)
+  {
+  ?>
+  <b><div  align="center" style="text-align: center; color:#FFF; margin-top: 200px; "><?php 
+   echo "THIS EMAILID HAS ALREADY ENROLLED, IN CASE OF ANY DIFFICULTY PLEASE CONTACT US ON 9905535113/8544130913"; ?></div></b>
+  <?php
+  }
+  else
+  {
+$result = mysqli_query($con,"INSERT INTO `anwstudreg`.`offline` (`name`, `college`, `email`, `contact`, `city`,`anw_id`) VALUES ('$a', '$b', '$c', '$d', '$e', '$j')");
+ ?><div  align="center" style="text-align: center; color:#FFF; margin-top: 300px;"><?php 
+ echo "YOU HAVE BEEN SUCCESSFULLY REGISTERED. YOUR ANWESHA ID IS $j</br>PLEASE NOTE YOUR ANWESHA ID FOR FURTHER CORRESPONDENCE WITH THE ANWEHSA REGISTRATION TEAM"; ?></div>
+ <?php
+  }
+?>
+</body>
+</html>
