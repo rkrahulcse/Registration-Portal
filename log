@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ANWESHA REGISTRATION LOGIN</title>
+
+</head>
+
+<body style="background-image:url(ii.jpg);">
+        	<div align="center" >
+			<h1 align="center" style="color:#FFF"> Coordinator Login</h1>
+            <br /><br /><br /><br /><br />
+           <div align="center">
+            <br />
+            <form action="log1.php" method="post">
+            <table align="center" cellpadding="2" cellspacing="2">
+            <tr>
+            <td style="color:#FFF;">Username* :</td>
+            <td><input type="text" name="userid" required="required" autofocus="autofocus" /></td>
+            </tr>
+            <tr>
+            <td style="color:#FFF">Password* :</td>
+            <td><input type="password" name="pwd" required="required"  /></td>
+            </tr>
+            <tr>
+            <td style="column-span:2">&nbsp;</td>
+            </tr>
+            </table>
+            <span style="column-span:2">
+            <input type="image" name="login" src="glossy_button_blank_red_rectangle.png" width="90px" height="40px" />
+            </span>
+            </form>
+            <br />
+            </div>
+            </div>
+        <br />
+        <div style="color:#FFF" align="center">
+        	<br /><br />&copy;Website Designed and Developed by Rahul Kumar<br /><br />
+        </div>
+</body>
+</html>
